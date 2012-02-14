@@ -1,0 +1,10 @@
+## YAML Template.
+development:
+  app_id:       '127919547329891'
+  secret_key:   'e5d43188250e35302b5932b945e3d797'
+  callback_url: 'http://localhost:3000/'
+test:
+production:
+  app_id:       '127919547329891'
+  secret_key:   'e5d43188250e35302b5932b945e3d797'
+  callback_url: 'http://rguffyat.heroku.com/'

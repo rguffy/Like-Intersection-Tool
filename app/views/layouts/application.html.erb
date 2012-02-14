@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facebook Common Intrest App</title>
+    <meta name="description" content="Find out what you and your friends have in common"/>
+    <%= stylesheet_link_tag 'likes' %>
+    <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', 'likes' %>
+  </head>
+  <body>
+    <%= content_for?(:form) ? yield(:form) : yield %>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+/*
+    Document   : likes
+    Created on : Feb 12, 2012, 12:36:27 AM
+    Author     : rob
+    Description:
+        Purpose of the stylesheet follows.
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: olivedrab;
+    font: normal 13px Arial;
+    color: black;
+}
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+ul {
+    list-style-type: none;
+}
+.main {
+    background-color: ivory;
+    width: 960px;
+    min-height: 900px;
+    padding: 20px;
+}
+.center {
+    margin: 0 auto;
+}
+.text_center {
+    text-align: center;
+}
+.fb-login-button {
+    width: 148px;
+}
+.friend_chooser {
+    width: 176px;
+    margin-bottom: 20px;
+}
+.results {
+    display: none;
+    width: 760px;
+    border: 2px solid olivedrab;
+    padding: 10px;
+    min-height: 200px;
+}
+.results li {
+    text-align: center;
+    padding: 2px 0;
+}
+
+

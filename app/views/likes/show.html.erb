@@ -1,0 +1,19 @@
+<% content_for :form do %>
+<div class="main center">
+  <h1 class="text_center">Compare your intrests with your friends' intrests</h1>
+  <form class="friend_chooser center">
+    <select id="friends">
+      <option value="">-- Select a Friend --</option>
+      <% @friends.each do |friend| %>
+      <option value="<%= friend['id'] %>"><%= friend['name'] %></option>
+      <% end %>
+    </select>
+  </form>
+  <div class="results center">
+    <h2 class="text_center">You and your friend <span id="friend_name"></span> have <span id="num_items"></span> in common</h2>
+    <ul id="common_list"></ul>
+  </div>
+</div>
+<% end %>
+
+<%= render :template => 'layouts/application' %>
